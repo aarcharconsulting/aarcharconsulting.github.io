@@ -22,3 +22,12 @@ ul.transition-all {
   background-image: url('../public/images/squiggly.svg'); 
   background-size: 100% 7px;
 }
+
+
+.bg-aarchar-logo {
+  width: 128px;
+  height: 128px;
+  background-image: url('../public/images/Aarchar.png');
+  background-size: cover; 
+  background-position: center;
+}

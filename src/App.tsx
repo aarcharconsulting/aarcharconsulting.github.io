@@ -14,7 +14,6 @@ const App = () => {
     setIsMenuOpen(false);
   };
   useEffect(() => {
-    console.log('**',process.env.PUBLIC_URL)
     const handleResize = () => {
       setIsMenuOpen(window.innerWidth >= 768);
     };
@@ -28,10 +27,7 @@ const App = () => {
     <Router basename={process.env.PUBLIC_URL}>
       <div className="flex flex-col min-h-screen">
         <header className="bg-white text-gray-800 p-4 fixed w-full flex justify-between items-center z-10">
-          <div className="flex items-center">
-            <img  alt="Aarchar Consulting"
-              className="h-8 w-auto md:h-20" src={`${process.env.PUBLIC_URL}/images/aarchar.png`} />
-          </div>
+          <div className="flex items-center bg-aarchar-logo"></div>
           <div className="relative">
             <div
               className="md:hidden"
