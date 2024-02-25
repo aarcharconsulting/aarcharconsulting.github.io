@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/aarcharconsulting/aarcharconsulting.github.io/static/css/main.f855e6bc.css",
+    "main.js": "/aarcharconsulting/aarcharconsulting.github.io/static/js/main.74d36655.js",
+    "static/js/453.f4fbaa6d.chunk.js": "/aarcharconsulting/aarcharconsulting.github.io/static/js/453.f4fbaa6d.chunk.js",
+    "static/media/logo.svg": "/aarcharconsulting/aarcharconsulting.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/aarcharconsulting/aarcharconsulting.github.io/index.html",
+    "main.f855e6bc.css.map": "/aarcharconsulting/aarcharconsulting.github.io/static/css/main.f855e6bc.css.map",
+    "main.74d36655.js.map": "/aarcharconsulting/aarcharconsulting.github.io/static/js/main.74d36655.js.map",
+    "453.f4fbaa6d.chunk.js.map": "/aarcharconsulting/aarcharconsulting.github.io/static/js/453.f4fbaa6d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.74d36655.js"
+  ]
+}
