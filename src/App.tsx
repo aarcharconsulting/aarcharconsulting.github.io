@@ -29,7 +29,7 @@ const App = () => {
         <header className="bg-white text-gray-800 p-4 fixed w-full flex justify-between items-center z-10">
           <div className="flex items-center">
             <img
-              src="/images/aarchar.png"
+              src={process.env.PUBLIC_URL + "/images/aarchar.png"}
               alt="Company Logo"
               className="h-8 w-auto md:h-20"
             />
@@ -42,7 +42,10 @@ const App = () => {
               <FontAwesomeIcon icon={faBars} className="text-xl" />
             </div>
 
-            <NavigationMenu handleLinkClick={handleLinkClick} isMenuOpen={isMenuOpen}/>
+            <NavigationMenu
+              handleLinkClick={handleLinkClick}
+              isMenuOpen={isMenuOpen}
+            />
           </div>
         </header>
         <main className="pt-28 md:pt-28 sm:pt-32 md: px-4">

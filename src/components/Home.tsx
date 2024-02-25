@@ -25,11 +25,21 @@ const Home = () => {
         </p>
         <p className="text-md md:text-lg text-gray-700 mt-4">
           🌐I'm always on the lookout for new challenges and opportunities.
-          Let's make something amazing together. Drop me an email aarcharconsulting@gmail.com 
+          Let's make something amazing together. Drop me an email
+          aarcharconsulting@gmail.com
         </p>
         <p className="text-md md:text-lg text-gray-700 mt-4">
           Thank you for stopping by, and I hope you enjoy exploring my portfolio
           as much as I enjoyed building it.🌟
+        </p>
+
+        <p className="text-md md:text-lg text-gray-700 mt-4">
+          Oh, and for those wondering why React, TypeScript, and Tailwind?
+          Because sometimes, in the vast sea of technology, you just have to
+          pick your boat and sail with style. Consider this my stylish voyage
+          across the digital oceans. Plus, who doesn't love a bit of
+          component-based architecture and utility-first CSS with a type-safe
+          journey? 😉🚀
         </p>
       </div>
     </div>
