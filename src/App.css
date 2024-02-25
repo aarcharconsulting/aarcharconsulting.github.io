@@ -1,0 +1,24 @@
+
+ul.transition-all {
+  overflow: hidden; 
+}
+
+
+.transition-margin {
+  transition: margin-top 0.3s ease;
+}
+
+.squiggly-underline:hover {
+  position: relative;
+}
+
+.squiggly-underline:hover::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  height: 5px;
+  background-image: url('../public/images/squiggly.svg'); 
+  background-size: 100% 7px;
+}
