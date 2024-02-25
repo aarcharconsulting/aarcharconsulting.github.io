@@ -14,6 +14,7 @@ const App = () => {
     setIsMenuOpen(false);
   };
   useEffect(() => {
+    console.log('**',process.env.PUBLIC_URL)
     const handleResize = () => {
       setIsMenuOpen(window.innerWidth >= 768);
     };
@@ -28,11 +29,8 @@ const App = () => {
       <div className="flex flex-col min-h-screen">
         <header className="bg-white text-gray-800 p-4 fixed w-full flex justify-between items-center z-10">
           <div className="flex items-center">
-            <img
-              src={process.env.PUBLIC_URL + "/images/aarchar.png"}
-              alt="Company Logo"
-              className="h-8 w-auto md:h-20"
-            />
+            <img  alt="Aarchar Consulting"
+              className="h-8 w-auto md:h-20" src={`${process.env.PUBLIC_URL}/images/aarchar.png`} />
           </div>
           <div className="relative">
             <div
