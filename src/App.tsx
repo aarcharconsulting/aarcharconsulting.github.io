@@ -27,7 +27,10 @@ const App = () => {
     <Router basename={process.env.PUBLIC_URL}>
       <div className="flex flex-col min-h-screen">
         <header className="bg-white text-gray-800 p-4 fixed w-full flex justify-between items-center z-10">
-          <div className="flex items-center bg-aarchar-logo"></div>
+          <div className="flex items-center bg-aarchar-logo hidden md:flex">
+            Logo Div
+          </div>
+          <div className="text-bold text-2xl md:hidden">Aarchar Consulting</div>
           <div className="relative">
             <div
               className="md:hidden"
