@@ -32,7 +32,7 @@ const NavigationMenu: React.FC<NavigationMenuProps> = ({
       {navLinks.map((link) => (
         <li
           key={link.name}
-          className={`block px-4 py-2 md:hover:bg-transparent hover:bg-red-500 md:border-0 md:hover:text-blue-500 md:p-0 ${
+          className={`block px-4 py-2 md:hover:bg-transparent hover:bg-gray-100 md:border-0 md:hover:text-blue-500 md:p-0 ${
             activeItem === link.name ? 'md:bg-gray-100' : 'hover:text-blue-500'
           }`}        >
               <Link to={link.path} onClick={()=>{
